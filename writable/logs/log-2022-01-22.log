@@ -1,0 +1,271 @@
+CRITICAL - 2022-01-22 09:13:10 --> Undefined variable: Route
+#0 /var/www/html/restfulApi/app/Config/Routes.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(706): require('/var/www/html/r...')
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/restfulApi/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/restfulApi/spark(63): CodeIgniter\CLI\Console->run()
+#6 {main}
+CRITICAL - 2022-01-22 09:37:25 --> Class 'App\Models\ApiModel' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
+CRITICAL - 2022-01-22 09:37:37 --> Class 'App\Models\ApiModel' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
+CRITICAL - 2022-01-22 09:40:15 --> Class 'App\Models\ApiModel' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
+CRITICAL - 2022-01-22 09:42:06 --> Class 'App\Models\ApiModel' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
+CRITICAL - 2022-01-22 09:42:07 --> Class 'App\Models\ApiModel' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
+CRITICAL - 2022-01-22 09:43:07 --> Class 'App\Models\ApiModel' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
+ERROR - 2022-01-22 12:48:42 --> Table 'phptest.employees' doesn't exist
+CRITICAL - 2022-01-22 12:48:42 --> Call to a member function getRow() on bool
+#0 /var/www/html/restfulApi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/html/restfulApi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/restfulApi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/restfulApi/app/Controllers/Api.php(52): CodeIgniter\Controller->validate()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#5 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#9 {main}
+ERROR - 2022-01-22 12:49:03 --> Table 'phptest.employees' doesn't exist
+CRITICAL - 2022-01-22 12:49:03 --> Call to a member function getRow() on bool
+#0 /var/www/html/restfulApi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/html/restfulApi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/restfulApi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/restfulApi/app/Controllers/Api.php(52): CodeIgniter\Controller->validate()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#5 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#9 {main}
+ERROR - 2022-01-22 12:50:08 --> Table 'phptest.employees' doesn't exist
+CRITICAL - 2022-01-22 12:50:08 --> Call to a member function getRow() on bool
+#0 /var/www/html/restfulApi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/html/restfulApi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/restfulApi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/restfulApi/app/Controllers/Api.php(52): CodeIgniter\Controller->validate()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#5 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#9 {main}
+ERROR - 2022-01-22 12:50:58 --> Table 'phptest.employees' doesn't exist
+CRITICAL - 2022-01-22 12:50:58 --> Call to a member function getRow() on bool
+#0 /var/www/html/restfulApi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/html/restfulApi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/restfulApi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/restfulApi/app/Controllers/Api.php(52): CodeIgniter\Controller->validate()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#5 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#9 {main}
+ERROR - 2022-01-22 12:55:30 --> Table 'phptest.employees' doesn't exist
+CRITICAL - 2022-01-22 12:55:30 --> Call to a member function getRow() on bool
+#0 /var/www/html/restfulApi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/html/restfulApi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/restfulApi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/restfulApi/app/Controllers/Api.php(52): CodeIgniter\Controller->validate()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#5 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#9 {main}
+ERROR - 2022-01-22 12:56:22 --> Table 'phptest.employees' doesn't exist
+CRITICAL - 2022-01-22 12:56:22 --> Call to a member function getRow() on bool
+#0 /var/www/html/restfulApi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/html/restfulApi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/restfulApi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/restfulApi/app/Controllers/Api.php(52): CodeIgniter\Controller->validate()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#5 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#9 {main}
+ERROR - 2022-01-22 12:56:56 --> Table 'phptest.employees' doesn't exist
+CRITICAL - 2022-01-22 12:56:56 --> Call to a member function getRow() on bool
+#0 /var/www/html/restfulApi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/html/restfulApi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/restfulApi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/restfulApi/app/Controllers/Api.php(52): CodeIgniter\Controller->validate()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#5 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#9 {main}
+ERROR - 2022-01-22 12:59:08 --> Table 'phptest.employees' doesn't exist
+CRITICAL - 2022-01-22 12:59:08 --> Call to a member function getRow() on bool
+#0 /var/www/html/restfulApi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/html/restfulApi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/restfulApi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/restfulApi/app/Controllers/Api.php(52): CodeIgniter\Controller->validate()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#5 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#9 {main}
+ERROR - 2022-01-22 12:59:46 --> Table 'phptest.employees' doesn't exist
+CRITICAL - 2022-01-22 12:59:46 --> Call to a member function getRow() on bool
+#0 /var/www/html/restfulApi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/html/restfulApi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/restfulApi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/restfulApi/app/Controllers/Api.php(52): CodeIgniter\Controller->validate()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#5 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#9 {main}
+ERROR - 2022-01-22 13:00:05 --> Table 'phptest.employees' doesn't exist
+CRITICAL - 2022-01-22 13:00:05 --> Call to a member function getRow() on bool
+#0 /var/www/html/restfulApi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/html/restfulApi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/restfulApi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/restfulApi/app/Controllers/Api.php(52): CodeIgniter\Controller->validate()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#5 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#9 {main}
+ERROR - 2022-01-22 13:00:05 --> Table 'phptest.employees' doesn't exist
+CRITICAL - 2022-01-22 13:00:05 --> Call to a member function getRow() on bool
+#0 /var/www/html/restfulApi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/html/restfulApi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/restfulApi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/restfulApi/app/Controllers/Api.php(52): CodeIgniter\Controller->validate()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#5 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#9 {main}
+ERROR - 2022-01-22 13:01:10 --> Table 'phptest.employees' doesn't exist
+CRITICAL - 2022-01-22 13:01:10 --> Call to a member function getRow() on bool
+#0 /var/www/html/restfulApi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/html/restfulApi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/restfulApi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/restfulApi/app/Controllers/Api.php(52): CodeIgniter\Controller->validate()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#5 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#9 {main}
+ERROR - 2022-01-22 13:01:17 --> Table 'phptest.employees' doesn't exist
+CRITICAL - 2022-01-22 13:01:17 --> Call to a member function getRow() on bool
+#0 /var/www/html/restfulApi/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/html/restfulApi/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/restfulApi/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/restfulApi/app/Controllers/Api.php(52): CodeIgniter\Controller->validate()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#5 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#9 {main}
+CRITICAL - 2022-01-22 13:48:18 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/restfulApi/app/Controllers/Api.php(71): password_hash()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->create()
+#3 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#7 {main}
+CRITICAL - 2022-01-22 13:50:57 --> Class 'App\Controllers\DateTime' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->login()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
+CRITICAL - 2022-01-22 13:52:36 --> Class 'App\Controllers\DateTime' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->login()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
+CRITICAL - 2022-01-22 13:53:05 --> Class 'App\Controllers\DateTime' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->login()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
+CRITICAL - 2022-01-22 13:53:31 --> Class 'App\Controllers\DateTime' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->login()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
+CRITICAL - 2022-01-22 13:54:47 --> Class 'App\Controllers\DateTime' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->login()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
+CRITICAL - 2022-01-22 13:55:14 --> Class 'App\Controllers\DateTime' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->login()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
+CRITICAL - 2022-01-22 13:56:16 --> Class 'App\Controllers\DateTime' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->login()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
+CRITICAL - 2022-01-22 13:58:47 --> Class 'App\Controllers\Time' not found
+#0 /var/www/html/restfulApi/system/CodeIgniter.php(825): App\Controllers\Api->login()
+#1 /var/www/html/restfulApi/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/restfulApi/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/restfulApi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/restfulApi/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/r...')
+#5 {main}
