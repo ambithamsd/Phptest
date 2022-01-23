@@ -47,7 +47,7 @@ Instuctions
   
 2. Register User
 
-    url : http://localhost:8080/api/create
+    url : http://localhost:8080/api/registration
 
     JSON Data format
 

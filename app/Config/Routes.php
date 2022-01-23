@@ -37,7 +37,7 @@ $routes->group("api", ["namespace" => "App\Controllers", "filter" => "basicauth"
 
     $routes->get("/", "Api::index");
     $routes->post("login", "Api::login");
-    $routes->post("create", "Api::create");
+    $routes->post("registration", "Api::registration");
 });
 
 

@@ -20,8 +20,8 @@ class Api extends ResourceController
         return $this->respond($data);
     }
 
-    // create
-    public function create() {
+    // registration
+    public function registration() {
         $rules = [
 			"firstName" => "required",
 			"lastName"  => "required",
@@ -69,12 +69,13 @@ class Api extends ResourceController
           'status'   => 200,
           'error'    => null,
           'messages' => [
-              'success' => 'User created'
+              'success' => 'User registration successfully completed'
           ]
       ];
     }
       return $this->respondCreated($response);
     }
+    // User login function
     public function login(){
         $rules = [
             "email"    => "required|valid_email|min_length[6]",
