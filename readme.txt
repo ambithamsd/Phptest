@@ -6,32 +6,7 @@ This restful api is developed in Codeigniter 4 framework is used. This version i
     
     Change the username and password and DB name
 
-    DB have two tables
-
-    1. User table 
-
-        CREATE TABLE IF NOT EXISTS `user` (
-        `id` int(11) NOT NULL,
-        `firstName` varchar(100) NOT NULL,
-        `lastName` varchar(100) NOT NULL,
-        `email` varchar(100) NOT NULL,
-        `password` varchar(100) NOT NULL,
-        `status` int(1) NOT NULL DEFAULT '0'
-        ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-    2. Token table
-
-        CREATE TABLE IF NOT EXISTS `login_token` (
-        `id` int(11) NOT NULL,
-        `lt_token` text NOT NULL,
-        `lt_user_id` int(11) NOT NULL,
-        `lt_expiry` varchar(50) NOT NULL
-        ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-
-
-
-Instuctions
+ Instuctions
 
 1. Download the code form git using commad
    
