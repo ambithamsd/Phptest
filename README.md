@@ -1,6 +1,8 @@
 # restfulApi
 This restful api is developed in Codeigniter 4 framework is used. This version is need Php 7.2 or newer. 
 
+Code Running instruction for Ubuntu 
+
 1. DataBase connection 
 
     app/Config/Database.php 
