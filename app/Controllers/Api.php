@@ -15,8 +15,8 @@ class Api extends ResourceController
 
     //  get all data 
     public function index(){
-               $apiModel = new ApiModel();
-        $data = $apiModel->orderBy('id', 'DESC')->findAll();
+        $apiModel = new ApiModel();
+        $data     = $apiModel->orderBy('id', 'DESC')->findAll();
         return $this->respond($data);
     }
 
@@ -24,9 +24,9 @@ class Api extends ResourceController
     public function create() {
         $rules = [
 			"firstName" => "required",
-			"lastName" => "required",
-			"email" => "required|valid_email|is_unique[user.email]|min_length[6]",
-			"password" => "required"
+			"lastName"  => "required",
+			"email"     => "required|valid_email|is_unique[user.email]|min_length[6]",
+			"password"  => "required"
 		];
 
 		$messages = [
@@ -37,9 +37,9 @@ class Api extends ResourceController
 				"required" => "Last Name is required"
 			],
 			"email" => [
-				"required" => "Email required",
+				"required"    => "Email required",
 				"valid_email" => "Email address is not in format",
-				"is_unique" => "Email address already exists"
+				"is_unique"   => "Email address already exists"
 			],
 			"password" => [
 				"required" => "Password is required"
