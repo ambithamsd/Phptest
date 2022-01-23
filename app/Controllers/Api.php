@@ -12,21 +12,16 @@ class Api extends ResourceController
 {
 
     use ResponseTrait;
-    // // get all
+
+    //  get all data 
     public function index(){
-        echo "testAPi";
-        // $response = [
-        //     'status' => 500,
-        //     'error' => true];
-        // return $this->respond($data);
-    //     $apiModel = new ApiModel();
-    //     $data = $apiModel->orderBy('id', 'DESC')->findAll();
-    //     return $this->respond($data);
+               $apiModel = new ApiModel();
+        $data = $apiModel->orderBy('id', 'DESC')->findAll();
+        return $this->respond($data);
     }
 
-// create
+    // create
     public function create() {
-// die("hittt");
         $rules = [
 			"firstName" => "required",
 			"lastName" => "required",
@@ -62,13 +57,11 @@ class Api extends ResourceController
 		} else {
 
 
-
-
         $apiModel = new ApiModel();
         $data = [
             'firstName' => $this->request->getVar('firstName'),
             'lastName'  => $this->request->getVar('lastName'),
-            'email'  => $this->request->getVar('email'),
+            'email'     => $this->request->getVar('email'),
             'password'  => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT)
         ];
         $apiModel->insert($data);
@@ -84,13 +77,13 @@ class Api extends ResourceController
     }
     public function login(){
         $rules = [
-            "email" => "required|valid_email|min_length[6]",
+            "email"    => "required|valid_email|min_length[6]",
             "password" => "required",
         ];
 
         $messages = [
             "email" => [
-                "required" => "Email required",
+                "required"    => "Email required",
                 "valid_email" => "Email address is not in format"
             ],
             "password" => [
@@ -101,10 +94,10 @@ class Api extends ResourceController
         if (!$this->validate($rules, $messages)) {
 
             $response = [
-                'status' => 500,
-                'error' => true,
+                'status'  => 500,
+                'error'   => true,
                 'message' => $this->validator->getErrors(),
-                'data' => []
+                'data'    => []
             ];
 
             return $this->respondCreated($response);
@@ -134,30 +127,30 @@ class Api extends ResourceController
                     }
 
                     $response = [
-                        'status' => 200,
-                        'error' => false,
+                        'status'   => 200,
+                        'error'    => false,
                         'messages' => 'User logged In successfully',
-                        'data' => [
-                            'token' => $token
-                        ]
+                        'data'     => [
+                                 'token' => $token
+                                ]
                     ];
                     return $this->respondCreated($response);
                 } else {
 
                     $response = [
-                        'status' => 500,
-                        'error' => true,
+                        'status'   => 500,
+                        'error'    => true,
                         'messages' => 'Incorrect details',
-                        'data' => []
+                        'data'     => []
                     ];
                     return $this->respondCreated($response);
                 }
             } else {
                 $response = [
-                    'status' => 500,
-                    'error' => true,
+                    'status'   => 500,
+                    'error'    => true,
                     'messages' => 'User not found',
-                    'data' => []
+                    'data'     => []
                 ];
                 return $this->respondCreated($response);
             }
